@@ -4,7 +4,7 @@ LANGUAGES = [
     # 'typescript',
 ]
 SEARCH_PHRASES = [
-    # "event race",
+    "event race",
     # "race event",
     "race condition",
     # "eventrace",

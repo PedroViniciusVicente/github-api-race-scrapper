@@ -7,66 +7,81 @@ from config.filters import SEARCH_PHRASES
 
 def search_github_issues(headers):
     collected_issues = []
+    seen_issue_urls = set()
+
 
     for lang in LANGUAGES:
-        print(f"\n🔎 Buscando por issues em projetos com linguagem {lang}...\n")
+        print(f"\n🔎 Buscando por issues em projetos com a linguagem {lang}...\n")
         
-        for phrase in SEARCH_PHRASES:
-            print(f"Buscando pela frase exata: '{phrase}'")
+        quoted_phrases = [f'"{phrase}"' for phrase in SEARCH_PHRASES]
+        search_terms_query_part = " OR ".join(quoted_phrases)
 
-            strategy_1_query = f'"{phrase}" language:{lang} in:title,body state:closed is:issue'
-            words = phrase.split()
+        query_str = f"({search_terms_query_part}) language:{lang} in:title,body state:closed is:issue"
+        url = f"https://api.github.com/search/issues?q={quote(query_str)}&sort=updated&order=desc&per_page=30"
+        response = requests.get(url, headers=headers)
 
-            if len(words) > 1:
-                proximity_terms = [f'"{words[i]}..{words[i+1]}"' for i in range(len(words) - 1)]
-                strategy_2_query = f'{" ".join(proximity_terms)} language:{lang} in:title,body state:closed is:issue'
-            else:
-                strategy_2_query = strategy_1_query
+        print(f"Query sendo usada: {query_str}")
 
-            query_to_use = strategy_1_query
-            
-            print(f"Query sendo usada: {query_to_use}")
+        if response.status_code == 200:
+            results = response.json()
+            raw_count = results['total_count']
+            print(f"Total encontrado pela API: {raw_count} issues\n")
 
-            url = f"https://api.github.com/search/issues?q={quote(query_to_use)}&sort=updated&order=desc&per_page=25"
-            response = requests.get(url, headers=headers)
+            for issue in results['items']:
+                issue_html_url = issue["html_url"]
+                title_lower = issue['title'].lower()
+                body_preview_original = issue.get('body', '') or ''
+                body_preview_lower = body_preview_original.lower()
+                
 
-            if response.status_code == 200:
-                results = response.json()
-                raw_count = results['total_count']
-                print(f"Total encontrado pela API: {raw_count} issues\n")
-
-                for issue in results['items']:
-                    title = issue['title'].lower()
-                    body_preview = issue.get('body', '') or ''
+                matching_phrases_for_this_issue = []
+                
+                for phrase in SEARCH_PHRASES:
                     phrase_lower = phrase.lower()
-                    found = phrase_lower in title.lower() or phrase_lower in body_preview.lower()
+                    
+                    found_in_preview = phrase_lower in title_lower or phrase_lower in body_preview_lower
+                    
+                    needs_full_body_check = (not found_in_preview) or ('...' in body_preview_original)
+                    
+                    current_phrase_found = found_in_preview
 
-                    # Se não encontrou na prévia, mas o body parece truncado, faz o fetch completo
-                    body_needs_checking = '...' in body_preview or not found
+                    if needs_full_body_check:
+                        issue_api_url = issue['url']
 
-                    if body_needs_checking:
-                        issue_url = issue['url']
-                        issue_response = requests.get(issue_url, headers=headers)
 
-                        if issue_response.status_code == 200:
-                            issue_data = issue_response.json()
-                            body_full = issue_data.get('body', '').lower()
-                            found = phrase_lower in title.lower() or phrase_lower in body_full
-                        else:
-                            print(f"⚠️ Erro ao buscar issue completa: {issue_response.status_code}")
-                            continue
+                        if 'full_body_fetched' not in issue: # Fetch only once
+                            issue['full_body_fetched'] = True # Mark as fetched
+                            issue['full_body_content'] = None
+                            if ('...' in body_preview_original and not found_in_preview) or not found_in_preview:
+                                issue_api_url = issue['url']
+                                issue_response = requests.get(issue_api_url, headers=headers)
+                                if issue_response.status_code == 200:
+                                    issue_data = issue_response.json()
+                                    issue['full_body_content'] = (issue_data.get('body', '') or '').lower()
+                                else:
+                                    print(f"⚠️ Erro ao buscar issue completa {issue_api_url}: {issue_response.status_code}")
+                        
+                        if issue.get('full_body_content'):
+                            current_phrase_found = phrase_lower in title_lower or phrase_lower in issue['full_body_content']
 
-                    if found:
+                    if current_phrase_found:
+                        matching_phrases_for_this_issue.append(phrase)
+
+                if matching_phrases_for_this_issue:
+                    if issue_html_url not in seen_issue_urls:
                         collected_issues.append({
                             "repo_url": issue["repository_url"],
                             "repo_name": "/".join(issue["repository_url"].split("/")[-2:]),
-                            "issue_url": issue["html_url"],
+                            "issue_url": issue_html_url,
                             "author": issue["user"]["login"],
-                            "search_phrase": phrase
+                            "matched_phrases": matching_phrases_for_this_issue # Lista de frases
+                            # "search_phrase": matching_phrases_for_this_issue[0] # Ou apenas a primeira
                         })
+                        seen_issue_urls.add(issue_html_url)
 
-            else:
-                print(f"Erro {response.status_code}: {response.text}")
+        else:
+            print(f"Erro na busca pela API para query combinada, status {response.status_code}: {response.text}")
+
 
     with open("data_repos/issues.json", "w", encoding="utf-8") as f:
         json.dump(collected_issues, f, indent=2, ensure_ascii=False)
