@@ -1,0 +1,4 @@
+# Arquivo de variaveis de ambiente e que contem o token do github
+.env
+
+arquivosNaoUtilizados
