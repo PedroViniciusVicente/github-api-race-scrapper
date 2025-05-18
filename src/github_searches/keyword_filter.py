@@ -1,12 +1,12 @@
 import json
 import requests
 from base64 import b64decode
-from auth.get_token import get_github_token
+from src.auth.get_token import get_github_token
 
-# Configuração
-KEYWORDS = ["async", "await", "Promise", "setTimeout", "setInterval"]
-EXTENSIONS = [".js", ".ts", ".jsx", ".tsx"]
-MAX_FILES = 20
+from config.filters import KEYWORDS
+from config.filters import EXTENSIONS
+from config.filters import MAX_FILES
+
 
 # Autenticação
 TOKEN = get_github_token()
@@ -58,7 +58,7 @@ def keyword_found_in_repo(owner, repo_name):
 
     return False
 
-def filter_by_keywords():
+def filter_by_keywords(headers):
     try:
         with open("data_repos/filtered_repos.json", "r", encoding="utf-8") as f:
             repos = json.load(f)
@@ -74,9 +74,9 @@ def filter_by_keywords():
 
         if keyword_found_in_repo(owner, repo_name):
             final_repos.append(repo)
-            print(f"✅ Incluído (keywords encontradas)\n")
+            print("✅ Incluído (keywords encontradas)\n")
         else:
-            print(f"❌ Excluído (keywords não encontradas)\n")
+            print("❌ Excluído (keywords não encontradas)\n")
 
     with open("data_repos/final_repos.json", "w", encoding="utf-8") as out:
         json.dump(final_repos, out, indent=2)

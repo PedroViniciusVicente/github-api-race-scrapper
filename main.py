@@ -1,32 +1,25 @@
-from auth.get_token import get_github_token
-from github_search import search_github_issues
-from repo_metadata_filter import filter_metadata
+from src.auth.get_token import get_github_token
+from src.github_searches.search import search_github_issues
+from src.github_searches.metadata_filter import filter_metadata
+from src.github_searches.keyword_filter import filter_by_keywords
 
 def main():
 
-    search_phrases = [
-        # "event race",
-        # "race event",
-        "race condition",
-        # "eventrace",
-        # "flaky",
-    ]
-
-    languages = [
-        "javascript",
-        # 'typescript',
-    ]
-
-    # Get the GitHub token from the environment variable
+    # 1. Get GitHub token from environment variable
     token = get_github_token()
+    headers = {
+        "Accept": "application/vnd.github.v3+json",
+        "Authorization": f"token {token}"
+    }
 
-    # Search for repos based on search_phrases and languages
-    search_github_issues(token, search_phrases, languages)
+    # 2. Search GitHub issues using the token
+    search_github_issues(headers)
 
-    # Filter the searched repos based on stars and last commit date
-    filter_metadata()
+    # 3. Filter metadata from the search results
+    # filter_metadata()
 
-    # Filter the searched repos based on the presence of keyswords like async await, etc
+    # 4. Filter repositories by keywords
+    # filter_by_keywords(headers)
 
 if __name__ == "__main__":
     main()
