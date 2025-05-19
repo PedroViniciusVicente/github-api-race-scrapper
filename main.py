@@ -16,10 +16,10 @@ def main():
     search_github_issues(headers)
 
     # 3. Filter metadata from the search results
-    # filter_metadata()
+    filter_metadata(headers)
 
     # 4. Filter repositories by keywords
-    # filter_by_keywords(headers)
+    filter_by_keywords()
 
 if __name__ == "__main__":
     main()

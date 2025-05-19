@@ -7,7 +7,6 @@ from config.filters import KEYWORDS
 from config.filters import EXTENSIONS
 from config.filters import MAX_FILES
 
-
 # Autenticação
 TOKEN = get_github_token()
 HEADERS = {
@@ -58,31 +57,37 @@ def keyword_found_in_repo(owner, repo_name):
 
     return False
 
-def filter_by_keywords(headers):
+def filter_by_keywords():
     try:
         with open("data_repos/filtered_repos.json", "r", encoding="utf-8") as f:
-            repos = json.load(f)
+            issues = json.load(f)
     except FileNotFoundError:
         print("Arquivo filtered_repos.json não encontrado.")
         return
 
-    final_repos = []
+    final_issues = []
 
-    for repo in repos:
-        owner, repo_name = repo["full_name"].split("/")
-        print(f"📦 Analisando {repo['full_name']}...")
+    for issue in issues:
+        repo_name = issue["repo_name"]  # Ex: "user/repo"
+        try:
+            owner, name = repo_name.split("/")
+        except ValueError:
+            print(f"⚠️ Formato de repo_name inválido: {repo_name}")
+            continue
 
-        if keyword_found_in_repo(owner, repo_name):
-            final_repos.append(repo)
+        print(f"📦 Analisando {repo_name}...")
+
+        if keyword_found_in_repo(owner, name):
+            final_issues.append(issue)
             print("✅ Incluído (keywords encontradas)\n")
         else:
             print("❌ Excluído (keywords não encontradas)\n")
 
     with open("data_repos/final_repos.json", "w", encoding="utf-8") as out:
-        json.dump(final_repos, out, indent=2)
+        json.dump(final_issues, out, indent=2, ensure_ascii=False)
 
-    print(f"\n📊 Repositórios finais com keywords: {len(final_repos)}/{len(repos)}")
+    print(f"\n📊 Issues finais com keywords no repositório: {len(final_issues)}/{len(issues)}")
     print("📁 Resultado salvo em final_repos.json\n")
 
-if __name__ == "__main__":
-    filter_by_keywords()
+# if __name__ == "__main__":
+#     filter_by_keywords()

@@ -32,57 +32,53 @@ def search_github_issues(headers):
                 title_lower = issue['title'].lower()
                 body_preview_original = issue.get('body', '') or ''
                 body_preview_lower = body_preview_original.lower()
-                
 
-                matching_phrases_for_this_issue = []
-                
+                # Determina se precisamos buscar o corpo completo
                 for phrase in SEARCH_PHRASES:
                     phrase_lower = phrase.lower()
-                    
+                    if phrase_lower in title_lower or phrase_lower in body_preview_lower:
+                        found_in_preview = True
+                        # print(f"🔍 Encontrada frase '{phrase}' no título ou preview do corpo da issue: {issue_html_url}")
+                        break
+
+                needs_full_body_check = (not found_in_preview) or ('...' in body_preview_original)
+
+                full_body_content = None
+
+                if needs_full_body_check:
+                    issue_api_url = issue['url']
+                    issue_response = requests.get(issue_api_url, headers=headers)
+                    if issue_response.status_code == 200:
+                        issue_data = issue_response.json()
+                        full_body_content = (issue_data.get('body', '') or '').lower()
+                    else:
+                        print(f"⚠️ Erro ao buscar issue completa {issue_api_url}: {issue_response.status_code}")
+
+                matching_phrases_for_this_issue = []
+
+                for phrase in SEARCH_PHRASES:
+                    phrase_lower = phrase.lower()
                     found_in_preview = phrase_lower in title_lower or phrase_lower in body_preview_lower
-                    
-                    needs_full_body_check = (not found_in_preview) or ('...' in body_preview_original)
-                    
-                    current_phrase_found = found_in_preview
+                    found_in_full = phrase_lower in full_body_content if full_body_content else False
 
-                    if needs_full_body_check:
-                        issue_api_url = issue['url']
-
-
-                        if 'full_body_fetched' not in issue: # Fetch only once
-                            issue['full_body_fetched'] = True # Mark as fetched
-                            issue['full_body_content'] = None
-                            if ('...' in body_preview_original and not found_in_preview) or not found_in_preview:
-                                issue_api_url = issue['url']
-                                issue_response = requests.get(issue_api_url, headers=headers)
-                                if issue_response.status_code == 200:
-                                    issue_data = issue_response.json()
-                                    issue['full_body_content'] = (issue_data.get('body', '') or '').lower()
-                                else:
-                                    print(f"⚠️ Erro ao buscar issue completa {issue_api_url}: {issue_response.status_code}")
-                        
-                        if issue.get('full_body_content'):
-                            current_phrase_found = phrase_lower in title_lower or phrase_lower in issue['full_body_content']
-
-                    if current_phrase_found:
+                    if found_in_preview or found_in_full:
                         matching_phrases_for_this_issue.append(phrase)
 
-                if matching_phrases_for_this_issue:
-                    if issue_html_url not in seen_issue_urls:
-                        collected_issues.append({
-                            "repo_url": issue["repository_url"],
-                            "repo_name": "/".join(issue["repository_url"].split("/")[-2:]),
-                            "issue_url": issue_html_url,
-                            "author": issue["user"]["login"],
-                            "matched_phrases": matching_phrases_for_this_issue # Lista de frases
-                            # "search_phrase": matching_phrases_for_this_issue[0] # Ou apenas a primeira
-                        })
-                        seen_issue_urls.add(issue_html_url)
+                if matching_phrases_for_this_issue and issue_html_url not in seen_issue_urls:
+                    collected_issues.append({
+                        "repo_url": issue["repository_url"],
+                        "repo_name": "/".join(issue["repository_url"].split("/")[-2:]),
+                        "issue_url": issue_html_url,
+                        "author": issue["user"]["login"],
+                        "matched_phrases": matching_phrases_for_this_issue
+                    })
+                    seen_issue_urls.add(issue_html_url)
+
 
         else:
             print(f"Erro na busca pela API para query combinada, status {response.status_code}: {response.text}")
 
 
-    with open("data_repos/issues.json", "w", encoding="utf-8") as f:
+    with open("data_repos/repos.json", "w", encoding="utf-8") as f:
         json.dump(collected_issues, f, indent=2, ensure_ascii=False)
-        print(f"\n💾 {len(collected_issues)} issues salvas em data_repos/issues.json")
+        print(f"\n💾 {len(collected_issues)} issues salvas em data_repos/repos.json")

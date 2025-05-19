@@ -5,9 +5,22 @@ LANGUAGES = [
 ]
 SEARCH_PHRASES = [
     "event race",
-    # "race event",
+    "event races",
+    "eventrace",
+    "eventraces",
+    "event-race",
+    "event-races",
+    "race event",
+    "racing event",
+    "racing events",
     "race condition",
-    # "eventrace",
+    "race-condition",
+    "race conditions",
+    "racing condition",
+    "racing-conditions",
+    # "racing test",
+    # "racing-test",
+    # "race-test",
     # "flaky",
 ]
 
@@ -23,8 +36,8 @@ KEYWORDS = [
     "async",
     "await",
     "Promise",
-    "setTimeout",
-    "setInterval"
+    # "setTimeout",
+    # "setInterval"
 ]
 EXTENSIONS = [".js", ".ts", ".jsx", ".tsx"]
 MAX_FILES = 20

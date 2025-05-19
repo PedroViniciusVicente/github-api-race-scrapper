@@ -16,15 +16,10 @@ source venv/bin/activate
 
 
 ### Instalação das Bibliotecas
-Instalar o requests
+Instalar as libs necessárias usando o pip
 ```
 pip install requests
-```
-
-Instalar o install python-dotenv
-```
 pip install python-dotenv
-
 ```
 
 Ou simplesmente
@@ -51,3 +46,6 @@ Executar a aplicação
 ```
 python3 main.py 
 ```
+
+<!-- Problemas com o erro 403? Então verifique quantas requisições ainda restam pelo seu token e em quanto tempo ele volta
+curl -H "Authorization: token SEU_TOKEN" https://api.github.com/rate_limit -->

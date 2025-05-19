@@ -4,160 +4,243 @@
     "repo_name": "TerraFirmaGreg-Team/Modpack-Modern",
     "issue_url": "https://github.com/TerraFirmaGreg-Team/Modpack-Modern/issues/944",
     "author": "Zero23-alt",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/tmcgee123/karma-spec-reporter",
     "repo_name": "tmcgee123/karma-spec-reporter",
     "issue_url": "https://github.com/tmcgee123/karma-spec-reporter/issues/114",
     "author": "ysabih2",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/noobaa/noobaa-core",
     "repo_name": "noobaa/noobaa-core",
     "issue_url": "https://github.com/noobaa/noobaa-core/issues/8586",
     "author": "romayalon",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/expressjs/session",
     "repo_name": "expressjs/session",
     "issue_url": "https://github.com/expressjs/session/issues/923",
     "author": "htadeusiak",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/syrnxalno/pixcrate",
     "repo_name": "syrnxalno/pixcrate",
     "issue_url": "https://github.com/syrnxalno/pixcrate/issues/1",
     "author": "syrnxalno",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/GregBaugues/bluno",
     "repo_name": "GregBaugues/bluno",
     "issue_url": "https://github.com/GregBaugues/bluno/issues/32",
     "author": "GregBaugues",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/vercel/next.js",
     "repo_name": "vercel/next.js",
     "issue_url": "https://github.com/vercel/next.js/issues/51068",
     "author": "danmartens",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/espruino/EspruinoTools",
     "repo_name": "espruino/EspruinoTools",
     "issue_url": "https://github.com/espruino/EspruinoTools/issues/194",
     "author": "rikkuness",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/open-webui/open-webui",
     "repo_name": "open-webui/open-webui",
     "issue_url": "https://github.com/open-webui/open-webui/issues/13650",
     "author": "realies",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/i18next/react-i18next",
     "repo_name": "i18next/react-i18next",
     "issue_url": "https://github.com/i18next/react-i18next/issues/1757",
     "author": "igorsantos07",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/joeloverbeck/living-narrative-engine",
+    "repo_name": "joeloverbeck/living-narrative-engine",
+    "issue_url": "https://github.com/joeloverbeck/living-narrative-engine/issues/1463",
+    "author": "joeloverbeck",
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/volumio/volumio3-backend",
     "repo_name": "volumio/volumio3-backend",
     "issue_url": "https://github.com/volumio/volumio3-backend/issues/214",
     "author": "foonerd",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/JustAGhosT/content_creation",
     "repo_name": "JustAGhosT/content_creation",
     "issue_url": "https://github.com/JustAGhosT/content_creation/issues/7",
     "author": "JustAGhosT",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "event race",
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/alxp/islandty",
     "repo_name": "alxp/islandty",
     "issue_url": "https://github.com/alxp/islandty/issues/24",
     "author": "rosiel",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/npm/cli",
     "repo_name": "npm/cli",
     "issue_url": "https://github.com/npm/cli/issues/8201",
     "author": "domdomegg",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/brave/brave-browser",
     "repo_name": "brave/brave-browser",
     "issue_url": "https://github.com/brave/brave-browser/issues/45715",
     "author": "tmancey",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/facebook/react",
     "repo_name": "facebook/react",
     "issue_url": "https://github.com/facebook/react/issues/30041",
     "author": "evisong",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/shaka-project/shaka-player",
     "repo_name": "shaka-project/shaka-player",
     "issue_url": "https://github.com/shaka-project/shaka-player/issues/8191",
     "author": "grenault73",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/aecreations/clippings",
     "repo_name": "aecreations/clippings",
     "issue_url": "https://github.com/aecreations/clippings/issues/506",
     "author": "aecreations",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/cometchat/cometchat-uikit-angular",
     "repo_name": "cometchat/cometchat-uikit-angular",
     "issue_url": "https://github.com/cometchat/cometchat-uikit-angular/issues/43",
     "author": "hmatyba",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/carbon-design-system/ibm-products",
     "repo_name": "carbon-design-system/ibm-products",
     "issue_url": "https://github.com/carbon-design-system/ibm-products/issues/7186",
     "author": "darq37",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/shaka-project/shaka-player",
     "repo_name": "shaka-project/shaka-player",
     "issue_url": "https://github.com/shaka-project/shaka-player/issues/8098",
     "author": "b2ag",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/rNeomy/reader-view",
     "repo_name": "rNeomy/reader-view",
     "issue_url": "https://github.com/rNeomy/reader-view/issues/216",
     "author": "imgurbot12",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
   },
   {
     "repo_url": "https://api.github.com/repos/LavaMoat/LavaMoat",
     "repo_name": "LavaMoat/LavaMoat",
     "issue_url": "https://github.com/LavaMoat/LavaMoat/issues/1134",
     "author": "boneskull",
-    "search_phrase": "race condition"
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/playcanvas/supersplat-viewer",
+    "repo_name": "playcanvas/supersplat-viewer",
+    "issue_url": "https://github.com/playcanvas/supersplat-viewer/issues/13",
+    "author": "slimbuck",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/browserpass/browserpass-extension",
+    "repo_name": "browserpass/browserpass-extension",
+    "issue_url": "https://github.com/browserpass/browserpass-extension/issues/248",
+    "author": "ebikt",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/jorgerdemocorp-mend-selfhosted/test-to-delete",
+    "repo_name": "jorgerdemocorp-mend-selfhosted/test-to-delete",
+    "issue_url": "https://github.com/jorgerdemocorp-mend-selfhosted/test-to-delete/issues/25",
+    "author": "mend-app-sh[bot]",
+    "matched_phrases": [
+      "race condition"
+    ]
   }
 ]

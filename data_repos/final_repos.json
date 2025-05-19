@@ -1,0 +1,164 @@
+[
+  {
+    "repo_url": "https://api.github.com/repos/noobaa/noobaa-core",
+    "repo_name": "noobaa/noobaa-core",
+    "issue_url": "https://github.com/noobaa/noobaa-core/issues/8586",
+    "author": "romayalon",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/expressjs/session",
+    "repo_name": "expressjs/session",
+    "issue_url": "https://github.com/expressjs/session/issues/923",
+    "author": "htadeusiak",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/vercel/next.js",
+    "repo_name": "vercel/next.js",
+    "issue_url": "https://github.com/vercel/next.js/issues/51068",
+    "author": "danmartens",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/espruino/EspruinoTools",
+    "repo_name": "espruino/EspruinoTools",
+    "issue_url": "https://github.com/espruino/EspruinoTools/issues/194",
+    "author": "rikkuness",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/open-webui/open-webui",
+    "repo_name": "open-webui/open-webui",
+    "issue_url": "https://github.com/open-webui/open-webui/issues/13650",
+    "author": "realies",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/i18next/react-i18next",
+    "repo_name": "i18next/react-i18next",
+    "issue_url": "https://github.com/i18next/react-i18next/issues/1757",
+    "author": "igorsantos07",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/volumio/volumio3-backend",
+    "repo_name": "volumio/volumio3-backend",
+    "issue_url": "https://github.com/volumio/volumio3-backend/issues/214",
+    "author": "foonerd",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/npm/cli",
+    "repo_name": "npm/cli",
+    "issue_url": "https://github.com/npm/cli/issues/8201",
+    "author": "domdomegg",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/facebook/react",
+    "repo_name": "facebook/react",
+    "issue_url": "https://github.com/facebook/react/issues/30041",
+    "author": "evisong",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/shaka-project/shaka-player",
+    "repo_name": "shaka-project/shaka-player",
+    "issue_url": "https://github.com/shaka-project/shaka-player/issues/8191",
+    "author": "grenault73",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/aecreations/clippings",
+    "repo_name": "aecreations/clippings",
+    "issue_url": "https://github.com/aecreations/clippings/issues/506",
+    "author": "aecreations",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/cometchat/cometchat-uikit-angular",
+    "repo_name": "cometchat/cometchat-uikit-angular",
+    "issue_url": "https://github.com/cometchat/cometchat-uikit-angular/issues/43",
+    "author": "hmatyba",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/carbon-design-system/ibm-products",
+    "repo_name": "carbon-design-system/ibm-products",
+    "issue_url": "https://github.com/carbon-design-system/ibm-products/issues/7186",
+    "author": "darq37",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/shaka-project/shaka-player",
+    "repo_name": "shaka-project/shaka-player",
+    "issue_url": "https://github.com/shaka-project/shaka-player/issues/8098",
+    "author": "b2ag",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/rNeomy/reader-view",
+    "repo_name": "rNeomy/reader-view",
+    "issue_url": "https://github.com/rNeomy/reader-view/issues/216",
+    "author": "imgurbot12",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/LavaMoat/LavaMoat",
+    "repo_name": "LavaMoat/LavaMoat",
+    "issue_url": "https://github.com/LavaMoat/LavaMoat/issues/1134",
+    "author": "boneskull",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/playcanvas/supersplat-viewer",
+    "repo_name": "playcanvas/supersplat-viewer",
+    "issue_url": "https://github.com/playcanvas/supersplat-viewer/issues/13",
+    "author": "slimbuck",
+    "matched_phrases": [
+      "race condition"
+    ]
+  },
+  {
+    "repo_url": "https://api.github.com/repos/browserpass/browserpass-extension",
+    "repo_name": "browserpass/browserpass-extension",
+    "issue_url": "https://github.com/browserpass/browserpass-extension/issues/248",
+    "author": "ebikt",
+    "matched_phrases": [
+      "race condition"
+    ]
+  }
+]
