@@ -5,11 +5,11 @@ LANGUAGES = [
 ]
 
 # Terms to identify test files
-TEST_FILE_IDENTIFIERS = [
-    "describe",
-    "it",
-    "test",
-]
+# TEST_FILE_IDENTIFIERS = [
+#     "describe",
+#     "it",
+#     "test",
+# ]
 
 # Terms to identify race conditions and concurrency issues in PR descriptions
 PR_DESCRIPTION_TERMS = [
@@ -21,6 +21,11 @@ PR_DESCRIPTION_TERMS = [
 ]
 
 # TEST_FILE_PATTERNS = [".test.", ".spec.", "_test.", "_spec.", "/test/", "/tests/", "__tests__"]
+TEST_FILE_PATTERNS = [
+    ".test.", ".spec.", "_test.", "_spec.", 
+    "/test/", "/tests/", "__tests__", 
+    "test.", "spec."  # files starting with test/spec
+]
 
 # Original search phrases kept for reference
 SEARCH_PHRASES = [
