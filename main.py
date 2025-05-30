@@ -2,6 +2,7 @@ from src.auth.get_token import get_github_token
 from src.github_searches.search import search_github_issues
 from src.github_searches.metadata_filter import filter_metadata
 from src.github_searches.keyword_filter import filter_by_keywords
+from src.github_searches.pr_search import search_github_prs
 
 def main():
 
@@ -13,13 +14,17 @@ def main():
     }
 
     # 2. Search GitHub issues using the token
-    search_github_issues(headers)
+    # search_github_issues(headers)
 
     # 3. Filter metadata from the search results
-    filter_metadata(headers)
+    # filter_metadata(headers)
 
     # 4. Filter repositories by keywords
-    filter_by_keywords()
+    # filter_by_keywords()
+
+
+    # Search for PRs
+    search_github_prs(headers)
 
 if __name__ == "__main__":
     main()

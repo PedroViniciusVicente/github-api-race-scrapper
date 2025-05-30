@@ -3,25 +3,44 @@ LANGUAGES = [
     "javascript",
     # 'typescript',
 ]
+
+# Terms to identify test files
+TEST_FILE_IDENTIFIERS = [
+    "describe",
+    "it",
+    "test",
+]
+
+# Terms to identify race conditions and concurrency issues in PR descriptions
+PR_DESCRIPTION_TERMS = [
+    "race condition",
+    "event race",
+    "concurrency bug",
+    "flaky test",
+    "race bug",
+]
+
+# Original search phrases kept for reference
 SEARCH_PHRASES = [
     "event race",
     "event races",
-    "eventrace",
-    "eventraces",
-    "event-race",
-    "event-races",
-    "race event",
-    "racing event",
+    # "eventrace",
+    # "eventraces",
+    # "event-race",
+    # "event-races",
+    # "race event",
+    # "racing event",
     "racing events",
     "race condition",
-    "race-condition",
-    "race conditions",
+    # "race-condition",
+    # "race conditions",
     "racing condition",
-    "racing-conditions",
+    # "racing-conditions",
     # "racing test",
     # "racing-test",
     # "race-test",
     # "flaky",
+    # "concurrency",
 ]
 
 # 3. Filters the metadata of the repos searched
