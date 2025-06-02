@@ -20,7 +20,6 @@ PR_DESCRIPTION_TERMS = [
     "race bug",
 ]
 
-# TEST_FILE_PATTERNS = [".test.", ".spec.", "_test.", "_spec.", "/test/", "/tests/", "__tests__"]
 TEST_FILE_PATTERNS = [
     ".test.", ".spec.", "_test.", "_spec.", 
     "/test/", "/tests/", "__tests__", 

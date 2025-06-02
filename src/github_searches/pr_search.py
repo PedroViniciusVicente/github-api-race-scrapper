@@ -12,18 +12,12 @@ import logging
 
 from config.filters import (
     LANGUAGES,
-    PR_DESCRIPTION_TERMS
+    PR_DESCRIPTION_TERMS,
+    TEST_FILE_PATTERNS
 )
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
-# Fixed test file detection - use filename patterns instead of content keywords
-TEST_FILE_PATTERNS = [
-    ".test.", ".spec.", "_test.", "_spec.", 
-    "/test/", "/tests/", "__tests__", 
-    "test.", "spec."  # files starting with test/spec
-]
 
 def get_next_page_url(response):
     links = response.headers.get('Link', '')
@@ -189,7 +183,7 @@ def search_github_prs(headers, max_workers=5, save_checkpoint=True):
         'errors': 0
     }
     
-    start_date = datetime(2024, 6, 26)
+    start_date = datetime(2020, 1, 1)
     end_date = datetime(2025, 5, 1)
     delta_days = 7  # Can be increased to 30 for fewer API calls
     

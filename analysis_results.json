@@ -1,0 +1,1936 @@
+[
+  {
+    "repository": "ForbesLindesay/atdatabases",
+    "pr_number": 279,
+    "pr_title": "Use server_version setting to resolve current PG version.",
+    "pr_url": "https://github.com/ForbesLindesay/atdatabases/pull/279",
+    "pr_state": "closed",
+    "created_at": "2023-01-21T13:07:42Z",
+    "test_files": [
+      {
+        "filename": "packages/pg-schema-introspect/src/__tests__/getTypes.test.pg.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "Microsoft/vscode",
+    "pr_number": 248527,
+    "pr_title": "[prompts]: fix window freeze issue when a prompt with empty header is executed",
+    "pr_url": "https://github.com/microsoft/vscode/pull/248527",
+    "pr_state": "closed",
+    "created_at": "2025-05-09T16:06:23Z",
+    "test_files": [
+      {
+        "filename": "src/vs/editor/test/common/codecs/frontMatterDecoder.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "src/vs/workbench/contrib/chat/test/common/promptSyntax/parsers/textModelPromptParser.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "ReactiveX/RxJS",
+    "pr_number": 7005,
+    "pr_title": "fix(share): Prevent setup/reset race condition in share with refCount",
+    "pr_url": "https://github.com/ReactiveX/rxjs/pull/7005",
+    "pr_state": "closed",
+    "created_at": "2022-06-29T09:07:10Z",
+    "test_files": [
+      {
+        "filename": "spec/operators/shareReplay-spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "actionhero/node-resque",
+    "pr_number": 318,
+    "pr_title": "Use `multi` transactions to increase safety with delayed jobs",
+    "pr_url": "https://github.com/actionhero/node-resque/pull/318",
+    "pr_state": "closed",
+    "created_at": "2020-02-15T02:42:28Z",
+    "test_files": [
+      {
+        "filename": "__tests__/core/worker.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "atom/atom",
+    "pr_number": 19525,
+    "pr_title": "Fix flaky test for `Project.onDidChangeFiles()`",
+    "pr_url": "https://github.com/atom/atom/pull/19525",
+    "pr_state": "closed",
+    "created_at": "2019-06-13T16:54:56Z",
+    "test_files": [
+      {
+        "filename": "spec/project-spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "atom/atom",
+    "pr_number": 19523,
+    "pr_title": "Increase timeout for atom-application.test.js on CI",
+    "pr_url": "https://github.com/atom/atom/pull/19523",
+    "pr_state": "closed",
+    "created_at": "2019-06-13T14:39:07Z",
+    "test_files": [
+      {
+        "filename": "spec/main-process/atom-application.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "atom/atom",
+    "pr_number": 19242,
+    "pr_title": "Use async randomBytes API to speedup Windows startup",
+    "pr_url": "https://github.com/atom/atom/pull/19242",
+    "pr_state": "closed",
+    "created_at": "2019-04-30T16:27:57Z",
+    "test_files": [
+      {
+        "filename": "spec/main-process/atom-application.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "atom/atom",
+    "pr_number": 19135,
+    "pr_title": "Add ability to retry flaky Jasmine tests",
+    "pr_url": "https://github.com/atom/atom/pull/19135",
+    "pr_state": "closed",
+    "created_at": "2019-04-10T20:25:22Z",
+    "test_files": [
+      {
+        "filename": "spec/native-watcher-registry-spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "atom/atom",
+    "pr_number": 19126,
+    "pr_title": "Wait until the editor is ready on application test",
+    "pr_url": "https://github.com/atom/atom/pull/19126",
+    "pr_state": "closed",
+    "created_at": "2019-04-09T14:03:45Z",
+    "test_files": [
+      {
+        "filename": "spec/main-process/atom-application.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "bbc/sqs-consumer",
+    "pr_number": 470,
+    "pr_title": "feat!: removing handler_processing debugger in favour of status",
+    "pr_url": "https://github.com/bbc/sqs-consumer/pull/470",
+    "pr_state": "closed",
+    "created_at": "2024-03-11T19:44:22Z",
+    "test_files": [
+      {
+        "filename": "test/tests/consumer.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "bee-queue/bee-queue",
+    "pr_number": 232,
+    "pr_title": "fix: prevent event delivery race condition",
+    "pr_url": "https://github.com/bee-queue/bee-queue/pull/232",
+    "pr_state": "closed",
+    "created_at": "2020-04-16T23:53:32Z",
+    "test_files": [
+      {
+        "filename": "test/delay-test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "test/job-test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "test/queue-test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "brianc/node-postgres",
+    "pr_number": 2969,
+    "pr_title": "Fix race condition in release event test for pool",
+    "pr_url": "https://github.com/brianc/node-postgres/pull/2969",
+    "pr_state": "closed",
+    "created_at": "2023-05-01T14:02:41Z",
+    "test_files": [
+      {
+        "filename": "packages/pg-pool/test/events.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "brianc/node-postgres",
+    "pr_number": 2367,
+    "pr_title": "Fix double-sync crash on postgres 9.x",
+    "pr_url": "https://github.com/brianc/node-postgres/pull/2367",
+    "pr_state": "closed",
+    "created_at": "2020-10-07T19:55:02Z",
+    "test_files": [
+      {
+        "filename": "packages/pg/test/integration/client/prepared-statement-tests.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/pg/test/integration/gh-issues/1105-tests.js",
+        "status": "added",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/pg/test/integration/gh-issues/2085-tests.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "broccolijs/broccoli",
+    "pr_number": 328,
+    "pr_title": "Test Watcher",
+    "pr_url": "https://github.com/broccolijs/broccoli/pull/328",
+    "pr_state": "closed",
+    "created_at": "2017-11-22T22:50:10Z",
+    "test_files": [
+      {
+        "filename": "test/watch_adapter_test.js",
+        "status": "added",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "codeceptjs/CodeceptJS",
+    "pr_number": 4230,
+    "pr_title": "Draft: Healers introduced, AI refactored",
+    "pr_url": "https://github.com/codeceptjs/CodeceptJS/pull/4230",
+    "pr_state": "closed",
+    "created_at": "2024-03-04T00:17:56Z",
+    "test_files": [
+      {
+        "filename": "examples/github_test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "test/unit/ai_test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "test/unit/heal_test.js",
+        "status": "added",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "fastify/fastify",
+    "pr_number": 5881,
+    "pr_title": "chore: fix flaky test",
+    "pr_url": "https://github.com/fastify/fastify/pull/5881",
+    "pr_state": "closed",
+    "created_at": "2024-12-08T11:53:27Z",
+    "test_files": [
+      {
+        "filename": "test/close-pipelining.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "test/hooks.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "test/post-empty-body.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "test/trust-proxy.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": false
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "fastify/fastify",
+    "pr_number": 5765,
+    "pr_title": "test: Fix flaky tests in versioned-routes.test.js",
+    "pr_url": "https://github.com/fastify/fastify/pull/5765",
+    "pr_state": "closed",
+    "created_at": "2024-10-24T11:14:33Z",
+    "test_files": [
+      {
+        "filename": "test/versioned-routes.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "google/zx",
+    "pr_number": 662,
+    "pr_title": "test(cli): fix flaky test",
+    "pr_url": "https://github.com/google/zx/pull/662",
+    "pr_state": "closed",
+    "created_at": "2023-08-15T10:17:09Z",
+    "test_files": [
+      {
+        "filename": "test/cli.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "honojs/hono",
+    "pr_number": 3343,
+    "pr_title": "fix(jsx): race condition in ErrorBoundary with event loop",
+    "pr_url": "https://github.com/honojs/hono/pull/3343",
+    "pr_state": "closed",
+    "created_at": "2024-08-31T06:41:15Z",
+    "test_files": [
+      {
+        "filename": "src/jsx/components.test.tsx",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "honojs/hono",
+    "pr_number": 3042,
+    "pr_title": "fix(streaming): call stream.abort() explicitly when request is aborted",
+    "pr_url": "https://github.com/honojs/hono/pull/3042",
+    "pr_state": "closed",
+    "created_at": "2024-06-25T23:44:21Z",
+    "test_files": [
+      {
+        "filename": "runtime_tests/bun/index.test.tsx",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "runtime_tests/deno/stream.test.ts",
+        "status": "added",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "runtime_tests/node/index.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "src/helper/streaming/sse.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "src/helper/streaming/stream.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "src/utils/stream.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "immobiliare/dats",
+    "pr_number": 48,
+    "pr_title": "test: fix flaky tests",
+    "pr_url": "https://github.com/immobiliare/dats/pull/48",
+    "pr_state": "closed",
+    "created_at": "2021-11-12T12:18:38Z",
+    "test_files": [
+      {
+        "filename": "test/index.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "ipfs/helia",
+    "pr_number": 776,
+    "pr_title": "fix: trustless-gateway sessions handle aborts properly ",
+    "pr_url": "https://github.com/ipfs/helia/pull/776",
+    "pr_state": "closed",
+    "created_at": "2025-04-16T20:52:34Z",
+    "test_files": [
+      {
+        "filename": "packages/block-brokers/test/trustless-gateway-sessions.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/utils/test/abstract-session.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "isomorphic-git/isomorphic-git",
+    "pr_number": 1882,
+    "pr_title": "Fix race condition when reading/writing refs",
+    "pr_url": "https://github.com/isomorphic-git/isomorphic-git/pull/1882",
+    "pr_state": "closed",
+    "created_at": "2024-03-14T19:44:34Z",
+    "test_files": [
+      {
+        "filename": "__tests__/test-GitRefManager.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "isomorphic-git/isomorphic-git",
+    "pr_number": 787,
+    "pr_title": "perf: cache .git/index for better performance",
+    "pr_url": "https://github.com/isomorphic-git/isomorphic-git/pull/787",
+    "pr_state": "closed",
+    "created_at": "2019-07-31T02:18:00Z",
+    "test_files": [
+      {
+        "filename": "__tests__/__helpers__/FixtureFS/makeBrowserFS.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "__tests__/__helpers__/FixtureFS/makeLightningFS.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "__tests__/__helpers__/FixtureFS/makeNodeFixture.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "__tests__/test-add.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "__tests__/test-unicode-paths.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "lodash/lodash",
+    "pr_number": 5512,
+    "pr_title": "feat(Function): add method sync",
+    "pr_url": "https://github.com/lodash/lodash/pull/5512",
+    "pr_state": "closed",
+    "created_at": "2022-08-27T13:04:29Z",
+    "test_files": [
+      {
+        "filename": "test/sync.test.js",
+        "status": "added",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "marblejs/marble",
+    "pr_number": 201,
+    "pr_title": "fix(core, messaging): race conditions",
+    "pr_url": "https://github.com/marblejs/marble/pull/201",
+    "pr_state": "closed",
+    "created_at": "2020-01-09T07:10:11Z",
+    "test_files": [
+      {
+        "filename": "packages/core/src/http/router/specs/http.router.resolver.v2.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "packages/messaging/src/server/specs/messaging.server.amqp.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/messaging/src/server/specs/messaging.server.redis.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/messaging/src/util/messaging.test.util.ts",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": false
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "marko-js/marko",
+    "pr_number": 2226,
+    "pr_title": "fix: issue with ooo stream with and io stream followed by ooo stream",
+    "pr_url": "https://github.com/marko-js/marko/pull/2226",
+    "pr_state": "closed",
+    "created_at": "2024-05-10T18:23:18Z",
+    "test_files": [
+      {
+        "filename": "packages/marko/test/render/fixtures-async-callback/await-client-reorder-cspnonce/test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures-async-callback/await-client-reorder-invoked-once/test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures-async-callback/await-client-reorder-mixed/test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures-async-callback/await-client-reorder-nested/test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures-async-callback/await-client-reorder-sync/test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures-async-callback/await-client-reorder/test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures-async-callback/await-out-of-order-with-in-order/expected.html",
+        "status": "added",
+        "has_test_keywords": false,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures-async-callback/await-out-of-order-with-in-order/template.marko",
+        "status": "added",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures-async-callback/await-out-of-order-with-in-order/test.js",
+        "status": "added",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures-async-callback/await-timeout/test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures/await-client-reorder-cspnonce/test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures/await-client-reorder-invoked-once/test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures/await-client-reorder-mixed/test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures/await-client-reorder-nested/test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures/await-client-reorder-sync/test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures/await-client-reorder-with-runtimeId/test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures/await-client-reorder/test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/marko/test/render/fixtures/await-timeout/test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "microsoft/playwright",
+    "pr_number": 35323,
+    "pr_title": "feat(j unit reporter): adds reporting on retries and path to JUnit reporter",
+    "pr_url": "https://github.com/microsoft/playwright/pull/35323",
+    "pr_state": "closed",
+    "created_at": "2025-03-21T23:16:37Z",
+    "test_files": [
+      {
+        "filename": "tests/playwright-test/reporter-junit.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "microsoft/playwright",
+    "pr_number": 35106,
+    "pr_title": "feat: implement fixmeinci modifier to conditionally skip tests in CI environments",
+    "pr_url": "https://github.com/microsoft/playwright/pull/35106",
+    "pr_state": "closed",
+    "created_at": "2025-03-09T05:22:03Z",
+    "test_files": [
+      {
+        "filename": "packages/playwright/src/common/test.ts",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "tests/playwright-test/test-fixmeinci.spec.ts",
+        "status": "added",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "microsoft/playwright",
+    "pr_number": 34323,
+    "pr_title": "test(bidi): create inspected page before initializing recorder",
+    "pr_url": "https://github.com/microsoft/playwright/pull/34323",
+    "pr_state": "closed",
+    "created_at": "2025-01-14T20:54:21Z",
+    "test_files": [
+      {
+        "filename": "tests/library/selector-generator.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "mikro-orm/mikro-orm",
+    "pr_number": 5630,
+    "pr_title": "fix(core): ensure correct mapping of related columns to owning entity fields for complex relations",
+    "pr_url": "https://github.com/mikro-orm/mikro-orm/pull/5630",
+    "pr_state": "closed",
+    "created_at": "2024-05-30T02:31:06Z",
+    "test_files": [
+      {
+        "filename": "tests/features/composite-keys/GH5629.test.ts",
+        "status": "added",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "tests/features/composite-keys/__snapshots__/GH5629.test.ts.snap",
+        "status": "added",
+        "has_test_keywords": false,
+        "has_async_keywords": false
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "mongodb/node-mongodb-native",
+    "pr_number": 4537,
+    "pr_title": "test: add logging for gcp flaky test",
+    "pr_url": "https://github.com/mongodb/node-mongodb-native/pull/4537",
+    "pr_state": "closed",
+    "created_at": "2025-05-06T15:43:32Z",
+    "test_files": [
+      {
+        "filename": "test/integration/node-specific/resource_clean_up.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "mongodb/node-mongodb-native",
+    "pr_number": 4496,
+    "pr_title": "ci(NODE-6860): add logging for known flaky tests",
+    "pr_url": "https://github.com/mongodb/node-mongodb-native/pull/4496",
+    "pr_state": "closed",
+    "created_at": "2025-04-01T19:53:17Z",
+    "test_files": [
+      {
+        "filename": "test/integration/client-side-encryption/client_side_encryption.prose.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "test/integration/client-side-encryption/client_side_encryption.spec.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "test/integration/server-discovery-and-monitoring/server_discovery_and_monitoring.prose.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "test/unit/tools/unified_spec_runner/entity_event_registry.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": false
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "mongodb/node-mongodb-native",
+    "pr_number": 4467,
+    "pr_title": "ci: skip flaky tests in FLE test suite",
+    "pr_url": "https://github.com/mongodb/node-mongodb-native/pull/4467",
+    "pr_state": "closed",
+    "created_at": "2025-03-14T16:09:29Z",
+    "test_files": [
+      {
+        "filename": "test/integration/client-side-encryption/client_side_encryption.prose.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "test/integration/client-side-encryption/client_side_encryption.spec.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": false
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "mongodb/node-mongodb-native",
+    "pr_number": 4466,
+    "pr_title": "ci: skip flaky tests in retryable reads and sdam suites",
+    "pr_url": "https://github.com/mongodb/node-mongodb-native/pull/4466",
+    "pr_state": "closed",
+    "created_at": "2025-03-14T15:53:18Z",
+    "test_files": [
+      {
+        "filename": "test/integration/retryable-reads/retryable_reads.spec.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "test/integration/server-discovery-and-monitoring/server_discovery_and_monitoring.prose.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "mongodb/node-mongodb-native",
+    "pr_number": 4464,
+    "pr_title": "ci(NODE-6519, NODE-6702): fix flaky listIndexes APM test and rtt calculation test",
+    "pr_url": "https://github.com/mongodb/node-mongodb-native/pull/4464",
+    "pr_state": "closed",
+    "created_at": "2025-03-13T18:07:50Z",
+    "test_files": [
+      {
+        "filename": "test/integration/command-logging-and-monitoring/command_monitoring.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "test/integration/server-discovery-and-monitoring/server_discover_and_monitoring.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "mongodb/node-mongodb-native",
+    "pr_number": 4460,
+    "pr_title": "chore(NODE-6859): sleep for longer to reduce flaky CSOT State machine #markCommand when csot is enabled and markCommand() takes longer than the remaining timeoutMS the command should fail due to a timeout error test",
+    "pr_url": "https://github.com/mongodb/node-mongodb-native/pull/4460",
+    "pr_state": "closed",
+    "created_at": "2025-03-12T18:25:13Z",
+    "test_files": [
+      {
+        "filename": "test/integration/client-side-encryption/driver.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "mongodb/node-mongodb-native",
+    "pr_number": 4459,
+    "pr_title": "chore(NODE-6848): reduce flakiness of Client Bulk Write CSOT enabled acknowledged writes when the timeout is reached while iterating the result cursor the bulk write operation times out",
+    "pr_url": "https://github.com/mongodb/node-mongodb-native/pull/4459",
+    "pr_state": "closed",
+    "created_at": "2025-03-12T18:21:13Z",
+    "test_files": [
+      {
+        "filename": "test/integration/crud/client_bulk_write.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "mongodb/node-mongodb-native",
+    "pr_number": 4458,
+    "pr_title": "chore(NODE-6847): fix flaky KMS closed error in should pass corpus without client schema",
+    "pr_url": "https://github.com/mongodb/node-mongodb-native/pull/4458",
+    "pr_state": "closed",
+    "created_at": "2025-03-12T18:17:26Z",
+    "test_files": [
+      {
+        "filename": "test/integration/client-side-encryption/client_side_encryption.prose.06.corpus.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "mongodb/node-mongodb-native",
+    "pr_number": 4232,
+    "pr_title": "test(NODE-5788): rework change stream close rejection test",
+    "pr_url": "https://github.com/mongodb/node-mongodb-native/pull/4232",
+    "pr_state": "closed",
+    "created_at": "2024-09-11T17:12:46Z",
+    "test_files": [
+      {
+        "filename": "test/integration/change-streams/change_stream.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "mongodb/node-mongodb-native",
+    "pr_number": 3830,
+    "pr_title": "refactor(NODE-5514): make FLE logic use async-await",
+    "pr_url": "https://github.com/mongodb/node-mongodb-native/pull/3830",
+    "pr_state": "closed",
+    "created_at": "2023-08-21T15:17:22Z",
+    "test_files": [
+      {
+        "filename": "test/integration/node-specific/auto_encrypter.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "test/unit/client-side-encryption/auto_encrypter.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "test/unit/client-side-encryption/client_encryption.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "test/unit/client-side-encryption/common.test.js",
+        "status": "removed",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "test/unit/client-side-encryption/state_machine.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "mongodb/node-mongodb-native",
+    "pr_number": 3688,
+    "pr_title": "test(NODE-5265): fix flaky operation count test",
+    "pr_url": "https://github.com/mongodb/node-mongodb-native/pull/3688",
+    "pr_state": "closed",
+    "created_at": "2023-05-26T16:03:55Z",
+    "test_files": [
+      {
+        "filename": "test/integration/server-selection/operation_count.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "mongodb/node-mongodb-native",
+    "pr_number": 3579,
+    "pr_title": "test(NODE-5070): reduce fle prose 14 flakiness on sharded clusters",
+    "pr_url": "https://github.com/mongodb/node-mongodb-native/pull/3579",
+    "pr_state": "closed",
+    "created_at": "2023-02-27T20:11:23Z",
+    "test_files": [
+      {
+        "filename": "test/integration/client-side-encryption/client_side_encryption.prose.14.decryption_events.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "napi-rs/napi-rs",
+    "pr_number": 1516,
+    "pr_title": "fix(napi): panic when Promise callbacks trigger after Promise is dropped",
+    "pr_url": "https://github.com/napi-rs/napi-rs/pull/1516",
+    "pr_state": "closed",
+    "created_at": "2023-03-13T17:50:19Z",
+    "test_files": [
+      {
+        "filename": "examples/napi/__test__/typegen.spec.ts.md",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "examples/napi/__test__/typegen.spec.ts.snap",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "examples/napi/__test__/values.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "nasa/openmct",
+    "pr_number": 6511,
+    "pr_title": "chore: bump Playwright to v1.32.3",
+    "pr_url": "https://github.com/nasa/openmct/pull/6511",
+    "pr_state": "closed",
+    "created_at": "2023-03-27T20:43:22Z",
+    "test_files": [
+      {
+        "filename": "e2e/tests/framework/appActions.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/framework/baseFixtures.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/framework/exampleTemplate.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/framework/generateVisualTestData.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/framework/testData.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/branding.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/couchdb.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/example/eventGenerator.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/example/generator/sineWaveLimitProvider.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "e2e/tests/functional/forms.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/menu.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/notification.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "e2e/tests/functional/planning/ganttChart.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/planning/plan.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/planning/timestrip.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/plugins/clocks/clock.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "e2e/tests/functional/plugins/conditionSet/conditionSet.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/plugins/displayLayout/displayLayout.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/plugins/flexibleLayout/flexibleLayout.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/plugins/gauge/gauge.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/plugins/imagery/exampleImagery.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/plugins/lad/lad.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/plugins/notebook/notebook.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/plugins/notebook/notebookSnapshots.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/plugins/notebook/notebookWithCouchDB.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "e2e/tests/functional/plugins/notebook/restrictedNotebook.e2e.spec.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "nestjs/nest",
+    "pr_number": 15166,
+    "pr_title": "fix(microservice): prevent error logs during redis client shutdown",
+    "pr_url": "https://github.com/nestjs/nest/pull/15166",
+    "pr_state": "closed",
+    "created_at": "2025-05-20T13:54:00Z",
+    "test_files": [
+      {
+        "filename": "packages/microservices/test/client/client-redis.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "parcel-bundler/parcel",
+    "pr_number": 9636,
+    "pr_title": "Suspend incomplete requests",
+    "pr_url": "https://github.com/parcel-bundler/parcel/pull/9636",
+    "pr_state": "open",
+    "created_at": "2024-04-12T00:22:19Z",
+    "test_files": [
+      {
+        "filename": "packages/core/core/test/test-utils.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "packages/core/integration-tests/test/cache.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "paulmillr/chokidar",
+    "pr_number": 1403,
+    "pr_title": "test: switch to node:fs/promises",
+    "pr_url": "https://github.com/paulmillr/chokidar/pull/1403",
+    "pr_state": "closed",
+    "created_at": "2025-01-19T15:21:29Z",
+    "test_files": [
+      {
+        "filename": "test.mjs",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "paulmillr/chokidar",
+    "pr_number": 1304,
+    "pr_title": "v4 fixes",
+    "pr_url": "https://github.com/paulmillr/chokidar/pull/1304",
+    "pr_state": "closed",
+    "created_at": "2024-02-05T19:54:05Z",
+    "test_files": [
+      {
+        "filename": "test.mjs",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "paulmillr/chokidar",
+    "pr_number": 1242,
+    "pr_title": "Fix some tests",
+    "pr_url": "https://github.com/paulmillr/chokidar/pull/1242",
+    "pr_state": "closed",
+    "created_at": "2022-08-19T22:26:01Z",
+    "test_files": [
+      {
+        "filename": "test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "paulmillr/chokidar",
+    "pr_number": 1228,
+    "pr_title": "Fix for a race condition on Linux",
+    "pr_url": "https://github.com/paulmillr/chokidar/pull/1228",
+    "pr_state": "closed",
+    "created_at": "2022-07-08T12:03:04Z",
+    "test_files": [
+      {
+        "filename": "test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "pinojs/pino",
+    "pr_number": 1826,
+    "pr_title": "Fix flaky test in CITGM",
+    "pr_url": "https://github.com/pinojs/pino/pull/1826",
+    "pr_state": "closed",
+    "created_at": "2023-10-05T07:01:09Z",
+    "test_files": [
+      {
+        "filename": "test/transport/core.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "pinojs/pino",
+    "pr_number": 1371,
+    "pr_title": "Fixed big flaky test",
+    "pr_url": "https://github.com/pinojs/pino/pull/1371",
+    "pr_state": "closed",
+    "created_at": "2022-03-17T09:01:09Z",
+    "test_files": [
+      {
+        "filename": "test/transport/big.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "pinojs/pino",
+    "pr_number": 1186,
+    "pr_title": "fixed flaky test in transport",
+    "pr_url": "https://github.com/pinojs/pino/pull/1186",
+    "pr_state": "closed",
+    "created_at": "2021-10-25T17:10:12Z",
+    "test_files": [
+      {
+        "filename": "test/transport/core.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "pinojs/pino",
+    "pr_number": 1113,
+    "pr_title": "Package manager CI action",
+    "pr_url": "https://github.com/pinojs/pino/pull/1113",
+    "pr_state": "closed",
+    "created_at": "2021-09-01T15:30:59Z",
+    "test_files": [
+      {
+        "filename": "test/esm/index.test.js",
+        "status": "modified",
+        "has_test_keywords": false,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "test/transport.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "prisma/prisma",
+    "pr_number": 26332,
+    "pr_title": "fix(migrate): fix flaky tests by upgrading to Postgres 14",
+    "pr_url": "https://github.com/prisma/prisma/pull/26332",
+    "pr_state": "closed",
+    "created_at": "2025-02-14T09:19:26Z",
+    "test_files": [
+      {
+        "filename": "packages/migrate/src/__tests__/DbPull/postgresql-views.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "prisma/prisma",
+    "pr_number": 26331,
+    "pr_title": "fix(migrate): fix flaky tests by doubling the test timeout to 10s",
+    "pr_url": "https://github.com/prisma/prisma/pull/26331",
+    "pr_state": "closed",
+    "created_at": "2025-02-14T08:24:16Z",
+    "test_files": [
+      {
+        "filename": "packages/migrate/src/__tests__/DbPull/postgresql-views.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "puppeteer/puppeteer",
+    "pr_number": 13751,
+    "pr_title": "test: fix a flaky test",
+    "pr_url": "https://github.com/puppeteer/puppeteer/pull/13751",
+    "pr_state": "closed",
+    "created_at": "2025-04-08T08:27:02Z",
+    "test_files": [
+      {
+        "filename": "test/src/network.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "reactivex/rxjs",
+    "pr_number": 7005,
+    "pr_title": "fix(share): Prevent setup/reset race condition in share with refCount",
+    "pr_url": "https://github.com/ReactiveX/rxjs/pull/7005",
+    "pr_state": "closed",
+    "created_at": "2022-06-29T09:07:10Z",
+    "test_files": [
+      {
+        "filename": "spec/operators/shareReplay-spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "remarkjs/remark",
+    "pr_number": 1163,
+    "pr_title": "[WIP] test: migrate test suite to node:test",
+    "pr_url": "https://github.com/remarkjs/remark/pull/1163",
+    "pr_state": "closed",
+    "created_at": "2023-05-16T16:46:11Z",
+    "test_files": [
+      {
+        "filename": "packages/remark-cli/test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/remark-parse/test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "packages/remark-stringify/test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "packages/remark/test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": false
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "restify/node-restify",
+    "pr_number": 1536,
+    "pr_title": "test(audit): fix flaky test",
+    "pr_url": "https://github.com/restify/node-restify/pull/1536",
+    "pr_state": "closed",
+    "created_at": "2017-10-21T09:30:04Z",
+    "test_files": [
+      {
+        "filename": "test/plugins/audit.test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "sindresorhus/del",
+    "pr_number": 95,
+    "pr_title": "Prevent race condition on macOS when deleting files ",
+    "pr_url": "https://github.com/sindresorhus/del/pull/95",
+    "pr_state": "closed",
+    "created_at": "2019-07-08T17:19:24Z",
+    "test_files": [
+      {
+        "filename": "test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "sindresorhus/execa",
+    "pr_number": 271,
+    "pr_title": "Add buffered data to `error.stdout`, `error.stderr` and `error.all`",
+    "pr_url": "https://github.com/sindresorhus/execa/pull/271",
+    "pr_state": "closed",
+    "created_at": "2019-05-30T12:36:24Z",
+    "test_files": [
+      {
+        "filename": "test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "sindresorhus/execa",
+    "pr_number": 120,
+    "pr_title": "Increase delay of detached child process",
+    "pr_url": "https://github.com/sindresorhus/execa/pull/120",
+    "pr_state": "closed",
+    "created_at": "2018-01-01T08:33:38Z",
+    "test_files": [
+      {
+        "filename": "test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "sindresorhus/get-port",
+    "pr_number": 36,
+    "pr_title": "Fix in-process race condition",
+    "pr_url": "https://github.com/sindresorhus/get-port/pull/36",
+    "pr_state": "closed",
+    "created_at": "2019-11-24T19:21:16Z",
+    "test_files": [
+      {
+        "filename": "test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "sindresorhus/p-map",
+    "pr_number": 74,
+    "pr_title": "`pMapIterable` `preserveOrder` option",
+    "pr_url": "https://github.com/sindresorhus/p-map/pull/74",
+    "pr_state": "open",
+    "created_at": "2024-05-24T05:42:30Z",
+    "test_files": [
+      {
+        "filename": "test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "sindresorhus/p-map",
+    "pr_number": 73,
+    "pr_title": "`pMapIterable` `preserveOrder` option",
+    "pr_url": "https://github.com/sindresorhus/p-map/pull/73",
+    "pr_state": "closed",
+    "created_at": "2024-05-24T05:36:34Z",
+    "test_files": [
+      {
+        "filename": "test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "sindresorhus/p-map",
+    "pr_number": 21,
+    "pr_title": "Fix test race condition",
+    "pr_url": "https://github.com/sindresorhus/p-map/pull/21",
+    "pr_state": "closed",
+    "created_at": "2019-07-15T22:39:53Z",
+    "test_files": [
+      {
+        "filename": "test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "strapi/strapi",
+    "pr_number": 22964,
+    "pr_title": "fix(data-transfer): race condition and backpressure in large asset transfers",
+    "pr_url": "https://github.com/strapi/strapi/pull/22964",
+    "pr_state": "closed",
+    "created_at": "2025-02-21T13:25:37Z",
+    "test_files": [
+      {
+        "filename": "packages/core/data-transfer/src/engine/__tests__/engine.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "strapi/strapi",
+    "pr_number": 22829,
+    "pr_title": "fix: flaky tests",
+    "pr_url": "https://github.com/strapi/strapi/pull/22829",
+    "pr_state": "closed",
+    "created_at": "2025-02-07T11:47:24Z",
+    "test_files": [
+      {
+        "filename": "packages/core/content-releases/admin/src/components/tests/ReleaseActionMenu.test.tsx",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "tests/e2e/tests/content-manager/create-content.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "tests/e2e/tests/content-manager/date.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "strapi/strapi",
+    "pr_number": 22635,
+    "pr_title": "test(e2e): text fields advanced settings",
+    "pr_url": "https://github.com/strapi/strapi/pull/22635",
+    "pr_state": "closed",
+    "created_at": "2025-01-13T17:11:20Z",
+    "test_files": [
+      {
+        "filename": "tests/e2e/tests/content-manager/create-content.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "strapi/strapi",
+    "pr_number": 22111,
+    "pr_title": "chore(e2e): split up history tests to avoid long running flaky tests",
+    "pr_url": "https://github.com/strapi/strapi/pull/22111",
+    "pr_state": "closed",
+    "created_at": "2024-11-08T15:36:05Z",
+    "test_files": [
+      {
+        "filename": "tests/e2e/tests/content-manager/history.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "strapi/strapi",
+    "pr_number": 22110,
+    "pr_title": "chore(e2e): remove expect.poll to avoid timeout",
+    "pr_url": "https://github.com/strapi/strapi/pull/22110",
+    "pr_state": "closed",
+    "created_at": "2024-11-08T15:19:58Z",
+    "test_files": [
+      {
+        "filename": "tests/e2e/tests/i18n/editview.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "strapi/strapi",
+    "pr_number": 21576,
+    "pr_title": "fix: perform index diff ignoring array order",
+    "pr_url": "https://github.com/strapi/strapi/pull/21576",
+    "pr_state": "closed",
+    "created_at": "2024-10-03T14:35:36Z",
+    "test_files": [
+      {
+        "filename": "packages/core/database/src/schema/__tests__/schema-diff.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "vercel/next.js",
+    "pr_number": 78911,
+    "pr_title": "Add debug logs to flaky tests",
+    "pr_url": "https://github.com/vercel/next.js/pull/78911",
+    "pr_state": "open",
+    "created_at": "2025-05-07T10:03:16Z",
+    "test_files": [
+      {
+        "filename": "test/e2e/app-dir/actions/app-action.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "test/e2e/app-dir/app-basepath/index.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "vercel/next.js",
+    "pr_number": 78473,
+    "pr_title": "Fix potential race condition in createRouterAct",
+    "pr_url": "https://github.com/vercel/next.js/pull/78473",
+    "pr_state": "closed",
+    "created_at": "2025-04-23T17:21:57Z",
+    "test_files": [
+      {
+        "filename": "test/e2e/app-dir/segment-cache/incremental-opt-in/segment-cache-incremental-opt-in.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "vercel/next.js",
+    "pr_number": 78467,
+    "pr_title": "test: increase timeouts for some flaky tests",
+    "pr_url": "https://github.com/vercel/next.js/pull/78467",
+    "pr_state": "open",
+    "created_at": "2025-04-23T16:25:54Z",
+    "test_files": [
+      {
+        "filename": "test/development/acceptance-app/undefined-default-export.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": false
+      },
+      {
+        "filename": "test/e2e/app-dir/actions/app-action.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "test/e2e/app-dir/app-basepath/index.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "vercel/next.js",
+    "pr_number": 78424,
+    "pr_title": "test: log html output for a flaky test to debug it",
+    "pr_url": "https://github.com/vercel/next.js/pull/78424",
+    "pr_state": "closed",
+    "created_at": "2025-04-22T17:45:48Z",
+    "test_files": [
+      {
+        "filename": "test/e2e/app-dir/rsc-basic/rsc-basic.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "vitejs/vite",
+    "pr_number": 18413,
+    "pr_title": "test: replace fs mocking in css module compose test",
+    "pr_url": "https://github.com/vitejs/vite/pull/18413",
+    "pr_state": "closed",
+    "created_at": "2024-10-21T09:36:51Z",
+    "test_files": [
+      {
+        "filename": "packages/vite/src/node/__tests__/plugins/css.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      },
+      {
+        "filename": "packages/vite/src/node/__tests__/plugins/fixtures/css-module-compose/css/bar.module.css",
+        "status": "added",
+        "has_test_keywords": false,
+        "has_async_keywords": false
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "vitejs/vite",
+    "pr_number": 18247,
+    "pr_title": "test: fix server-worker-runner flaky test",
+    "pr_url": "https://github.com/vitejs/vite/pull/18247",
+    "pr_state": "closed",
+    "created_at": "2024-10-01T03:49:37Z",
+    "test_files": [
+      {
+        "filename": "packages/vite/src/node/ssr/runtime/__tests__/server-worker-runner.spec.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "webdriverio/webdriverio",
+    "pr_number": 13385,
+    "pr_title": "fix(infra): retry type generation",
+    "pr_url": "https://github.com/webdriverio/webdriverio/pull/13385",
+    "pr_state": "closed",
+    "created_at": "2024-08-17T01:43:00Z",
+    "test_files": [
+      {
+        "filename": "packages/wdio-cucumber-framework/tests/adapter.test.ts",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  },
+  {
+    "repository": "xxczaki/cash-cli",
+    "pr_number": 18,
+    "pr_title": "test: fix conversion test for invalid values",
+    "pr_url": "https://github.com/xxczaki/cash-cli/pull/18",
+    "pr_state": "closed",
+    "created_at": "2018-11-20T09:33:03Z",
+    "test_files": [
+      {
+        "filename": "test/test.js",
+        "status": "modified",
+        "has_test_keywords": true,
+        "has_async_keywords": true
+      }
+    ],
+    "has_matching_content": true
+  }
+]
